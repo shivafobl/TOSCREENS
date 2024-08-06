@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.center-text {
+    text-align: center;
+    color: red;
+}
+.center-text2 {
+    text-align: center;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-large
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    color: blue;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+    grid-column: span 2; /* Make warning messages span both columns */
+}
+.full-width {
+    grid-column: span 2; /* Make hr span both columns */
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+
